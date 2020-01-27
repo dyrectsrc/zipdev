@@ -33,27 +33,27 @@ I chose to use CSS Grid for the questions and zomato list results.
 
 ### Requisites
 
-## Show one question at time, and click the next button for showing the next image
+#### Show one question at time, and click the next button for showing the next image
 
 I created a function called next in javascript that hid and showed the appropriate question by changing the CSS display: hide and display: block properties
 
-## Create a general progress bar at the bottom of the quiz (will fulfill the entire progress bar when you answer the last question)
+#### Create a general progress bar at the bottom of the quiz (will fulfill the entire progress bar when you answer the last question)
 
 I used the next function and javascript to grow a bar as the user progresses using CSS.
 
-## Ten seconds timer for the first two questions
+#### Ten seconds timer for the first two questions
 
 I created a countdown function to add to the first 2 questions
 
-## Responsive design
+#### Responsive design
 
 I chose css grid to assist in a responsive design.
 
-## Provide your code in a git-based repository
-## Provide instructions to install it (readme file)
-## You are free to provide information about the decisions you made implementing the code challenge.
+#### Provide your code in a git-based repository
+#### Provide instructions to install it (readme file)
+#### You are free to provide information about the decisions you made implementing the code challenge.
 
-## Required Technologies
+#### Required Technologies
 
 JavaScript
 SCSS / CSS
