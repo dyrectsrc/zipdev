@@ -74,9 +74,9 @@ function compareReverse(sentenceText1, sentenceText2) {
   });
 
   resultDiv.innerHTML += `<li class='answer-4'>
-  <h3 class='answ-4-a'>Palindrome sentence 1:</h3>
+  <h3 class='answ-4-a'>Sentence 1:</h3>
   <h4>${sentenceText1}</h4>
-  <h3 class='answ-4-b'>Palindrome sentence 2:</h3>
+  <h3 class='answ-4-b'>Reversed sentence 2:</h3>
   <h4>${sentenceText2}</h4>
   <br> ${lettersArr1.join("") === lettersArr2.reverse().join("") ?
       `<p class='result-correct'>Correct, these sentences are palindromes of eachother.</p></li>`
