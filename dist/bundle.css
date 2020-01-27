@@ -1,3 +1,7 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(fonts/629a55a7e793da068dc580d184cc0e31.ttf);
+}
 body {
   min-height: 100vh;
   font-family: arial;
@@ -304,5 +308,3 @@ body .zipdev-wrap #zipdev-ads .zipdev-restaurant .details .type {
 body .zipdev-wrap #zipdev-ads .zipdev-restaurant .details .cost {
   color: #aaa;
 }
-
-/*# sourceMappingURL=/styles.5c8f3eab.css.map */
