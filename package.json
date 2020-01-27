@@ -1,0 +1,23 @@
+{
+  "name": "zipdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyrectsrc/zipdev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyrectsrc/zipdev/issues"
+  },
+  "homepage": "https://github.com/dyrectsrc/zipdev#readme",
+  "devDependencies": {
+    "sass": "^1.25.1-test.1"
+  }
+}
