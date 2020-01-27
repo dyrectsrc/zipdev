@@ -1,17 +1,23 @@
-@font-face {
-  font-family: OpenSans;
-  src: url(fonts/629a55a7e793da068dc580d184cc0e31.ttf);
-}
 body {
   min-height: 100vh;
   font-family: arial;
   background-position: center;
   background-repeat: no-repeat;
 }
+body h1.title {
+  color: #777;
+  text-align: center;
+}
+body h2.pierre-besson {
+  color: #aaa;
+  text-align: center;
+  font-style: italic;
+}
 body #result {
   list-style-type: none;
   text-align: center;
   display: grid;
+  padding-left: 0;
   grid-template-columns: 1fr;
   grid-template-areas: "answ1" "answ2" "answ3" "answ4";
 }
@@ -101,9 +107,13 @@ body #result .answer-4 .result-correct {
   width: 70%;
   margin: 0 auto;
 }
+body .zipdev-wrap {
+  padding-left: 0;
+}
 body .zipdev-wrap .questions {
   text-align: center;
   list-style-type: none;
+  padding-left: 0;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas: "q1" "q2" "q3" "q4" "button";
@@ -175,7 +185,8 @@ body .zipdev-wrap .questions .q4 {
   margin: 10px;
   display: none;
 }
-body .zipdev-wrap .questions #counter, body .zipdev-wrap .questions #counter2 {
+body .zipdev-wrap .questions #counter,
+body .zipdev-wrap .questions #counter2 {
   font-size: 1.4em;
   color: #999;
   margin-top: 20px;
@@ -242,6 +253,7 @@ body .zipdev-wrap .progress-bar .part-4 span#p4 {
 }
 body .zipdev-wrap #zipdev-ads {
   display: none;
+  padding-left: 0;
 }
 body .zipdev-wrap #zipdev-ads .zipdev-restaurant {
   background: #ffffff;

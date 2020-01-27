@@ -1,18 +1,22 @@
-@font-face {
-  font-family: OpenSans;
-  src: url("../fonts/OpenSans-Regular.ttf");
-}
-
 body {
   min-height: 100vh;
   font-family: arial;
   background-position: center;
   background-repeat: no-repeat;
-
+  h1.title {
+    color: #777;
+    text-align: center;
+  }
+  h2.pierre-besson {
+    color: #aaa;
+    text-align: center;
+    font-style: italic;
+  }
   #result {
     list-style-type: none;
     text-align: center;
     display: grid;
+    padding-left: 0;
     grid-template-columns: 1fr;
     grid-template-areas:
       "answ1"
@@ -108,9 +112,11 @@ body {
     }
   }
   .zipdev-wrap {
+    padding-left: 0;
     .questions {
       text-align: center;
       list-style-type: none;
+      padding-left: 0;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-areas:
@@ -125,7 +131,7 @@ body {
         padding: 20px;
         padding-top: 0;
         margin: 10px;
-        #next1{
+        #next1 {
           width: 50%;
           text-align: center;
           padding: 10px;
@@ -145,7 +151,7 @@ body {
         padding-top: 0;
         margin: 10px;
         display: none;
-        #next2{
+        #next2 {
           width: 50%;
           text-align: center;
           padding: 10px;
@@ -165,7 +171,7 @@ body {
         padding-top: 0;
         margin: 10px;
         display: none;
-        #next3{
+        #next3 {
           width: 50%;
           text-align: center;
           padding: 10px;
@@ -185,9 +191,9 @@ body {
         padding-top: 10px;
         margin: 10px;
         display: none;
-
       }
-      #counter, #counter2 {
+      #counter,
+      #counter2 {
         font-size: 1.4em;
         color: #999;
         margin-top: 20px;
@@ -213,7 +219,7 @@ body {
         border: solid 1px #999;
       }
     }
-    
+
     .progress-bar {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -225,37 +231,38 @@ body {
       .part-1 {
         background: #a3a812;
         padding: 10px;
-        span#p1{
-          display:block;
+        span#p1 {
+          display: block;
         }
       }
       .part-2 {
         background: #a3a812;
         padding: 10px;
         display: none;
-        span#p2{
-          display:none;
+        span#p2 {
+          display: none;
         }
       }
       .part-3 {
         background: #a3a812;
         padding: 10px;
         display: none;
-        span#p3{
-          display:none;
+        span#p3 {
+          display: none;
         }
       }
       .part-4 {
         background: #a3a812;
         padding: 10px;
         display: none;
-        span#p4{
-          display:none;
+        span#p4 {
+          display: none;
         }
       }
     }
     #zipdev-ads {
       display: none;
+      padding-left: 0;
       .zipdev-restaurant {
         background: #ffffff;
         border: 8px solid #f3f3f3;

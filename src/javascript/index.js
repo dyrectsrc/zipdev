@@ -187,6 +187,7 @@ function checkCheckBoxes() {
 //and multiple zomato restaurants.
 function checkAnswers() {
   document.getElementById("questions").style.display = "none";
+  document.getElementById("progress-bar").style.display = "none";
   document.getElementById("zipdev-ads").style.display = "block";
   let plndromeTextBox = document.getElementById("palindrome").value;
   let pdromesent1 = document.getElementById("p-sentence").value;

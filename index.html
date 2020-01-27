@@ -1,5 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <head>
   <meta charset="utf-8">
@@ -15,11 +18,13 @@
 </head>
 
 <body>
-  <ul id="result"></ul>
-  <ul class="zipdev-wrap">
+  <h1 class="title">Zipdev - Front-end Javascript Code Challenge</h1> 
+<h2 class="pierre-besson">Pierre Besson</h1>
+  <div id="result"></div>
+  <div class="zipdev-wrap">
 
-    <ul class="questions" id="questions">
-      <li class="q1" id="q1">
+    <div class="questions" id="questions">
+      <div class="q1" id="q1">
         <h3>How do you describe yourself as a developer?</h3>
 
         <input type="radio" id="hermit" name="developer" value="Hermit" checked>
@@ -34,8 +39,8 @@
         <label for="unsure">Do not know yet</label>
         <div id="counter"></div>
         <button type="button" id="next1" name="next">Next</button>
-      </li>
-      <li class="q2" id="q2">
+      </div>
+      <div class="q2" id="q2">
         <h3>Select the JavaScript based technologies:</h3>
         <input type="checkbox" id="angularjs" name="tech" value="Angularjs" checked>
         <label for="angularjs">Angularjs</label>
@@ -49,13 +54,13 @@
         <label for="c#">C#</label>
         <div id="counter2"></div>
         <button type="button" id="next2" name="next">Next</button>
-      </li>
-      <li class="q3" id="q3">
+      </div>
+      <div class="q3" id="q3">
         <h3>Give an example of a palindrome.</h3>
         <input type="text" class="palindrome" id="palindrome" name="palindrome">
         <button type="button" id="next3" name="next">Next</button>
-      </li>
-      <li class="q4" id="q4">
+      </div>
+      <div class="q4" id="q4">
 
         <div class="sentence-1">
           <h3>Write a sentence.</h3>
@@ -65,19 +70,19 @@
           <h3>Write the palindrome of that sentence.</h3>
           <input type="text" class="p-sentence-r" id="p-sentence-r">
         </div>
-      </li>
+      </div>
 
       <button type="button" id="check-answers" name="getVal">Check your answers.</button>
-    </ul>
-    <div class="progress-bar">
+    </div>
+    <div class="progress-bar" id="progress-bar">
       <div class="part-1" id="part-1"><span class="part1" id="p1">Section 1 out of 4</span></div>
       <div class="part-2" id="part-2"><span class="part2" id="p2">Section 2 out of 4</span></div>
       <div class="part-3" id="part-3"><span class="part3" id="p3">Section 3 out of 4</span></div>
       <div class="part-4" id="part-4"><span class="part4" id="p4">Section 4 out of 4</span></div>
     </div>
-    <ul class="zipdev-ads" id="zipdev-ads">
+    <div class="zipdev-ads" id="zipdev-ads">
 
-    </ul>
+    </div>
 
   
 <script src="dist/bundle.js"></script>
