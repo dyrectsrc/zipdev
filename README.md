@@ -31,6 +31,29 @@ I created functions for the next buttons, radio buttons for question 1, check bo
 
 I chose to use CSS Grid for the questions and zomato list results.
 
+### At the end of the quiz, show a results page showing the following
+
+#### 1. Answers from question number one highlighting the provided by the user
+
+Answer is highlighted in green
+
+#### 2. Answers from question number two with an approval mark if the user selected the right answers
+
+Answers are highlighted in green with letting them know if they were correct with a blue background or incorrect with a red background
+
+#### 3. Show the word provided in question number three and mark as good if the user provided a palindrome and wrong if not.
+
+Shows word they entered letting them know if it is a palindrome with a blue background or incorrect with a red background
+
+#### 4. Show the two texts provided by the user and mark as good if the user provided a palindrome and wrong if not.
+
+Shows sentences they entered letting them know if it is a palindrome of eachother with a blue background or incorrect with a red background
+
+#### 5. Show a message saying “Select your favorite San Diego restaurant” and display the full list of San Diego’s Restaurants in the following format
+
+"Select your favorite San Diego restaurant" is shown and rest api is called and displayed in the format provided.
+
+
 ### Requisites
 
 #### Show one question at time, and click the next button for showing the next image

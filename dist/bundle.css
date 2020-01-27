@@ -255,6 +255,9 @@ body .zipdev-wrap #zipdev-ads {
   display: none;
   padding-left: 0;
 }
+body .zipdev-wrap #zipdev-ads h2.select-fav {
+  text-align: center;
+}
 body .zipdev-wrap #zipdev-ads .zipdev-restaurant {
   background: #ffffff;
   border: 8px solid #f3f3f3;
